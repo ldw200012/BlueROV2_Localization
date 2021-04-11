@@ -6,7 +6,7 @@
 # How to create ROS Package
 First, get into your ROS workspace
 
-  $ cd ~/catkin_ws/src
+    $ cd ~/catkin_ws/src
   
 in case you have another name for your ROS workspace
 
