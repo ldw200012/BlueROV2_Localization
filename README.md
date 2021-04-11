@@ -2,7 +2,11 @@
 #### <div align=center>" This repository is created for underwater robotics navigation for BlueROV2, </div>
 #### <div align=center>which reads the sensor value from DVL(Doppler Velocity Logs) and then derive the position of robot. "</div><br><br>
 
-<img src="https://bluerobotics.com/wp-content/uploads/2016/06/BlueROV2-4-lumen-1.png"><br><br>
+<div>
+       <img src="https://bluerobotics.com/wp-content/uploads/2016/06/BlueROV2-4-lumen-1.png" width="50%">
+       <img src="https://waterlinked.com/wp-content/uploads/2020/03/DSC04478_1600_web.jpg" width="50%">
+</div>
+<br><br>
 
 <div align="center">We are subscribing the sensor value from a rostopic linked with DVL sensor, which has a message type <a href="http://docs.ros.org/en/hydro/api/underwater_sensor_msgs/html/msg/DVL.html">underwater_sensor_msgs/DVL.msg</a><br><br>
 
