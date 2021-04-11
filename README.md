@@ -4,7 +4,7 @@
 ***
 
 # How to create ROS Package
-First, get into your ROS workspace
+1. Get into your ROS workspace
 
     $ cd ~/catkin_ws/src
   
@@ -12,12 +12,12 @@ First, get into your ROS workspace
 
       $ cd ~/<workspace_name>/src
 
-Then, copy a ROS Package
+2. Copy a ROS Package
 
     $ git clone 
 
 
-Now, run below commands to configure your ROS Package
+3. Run below commands to configure your ROS Package
 
     $ cd ~/catkin_ws
     $ catkin_make
