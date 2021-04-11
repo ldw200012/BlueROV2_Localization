@@ -1,6 +1,6 @@
-# bluerov-kalmanfilter
-#### This repository is created for underwater robotics navigation for BlueROV2,
-#### which reads the sensor value from DVL(Doppler Velocity Logs) and then derive the position of robot.
+# <div align=center>bluerov-kalmanfilter</div>
+#### <div align=center>" This repository is created for underwater robotics navigation for BlueROV2, </div>
+#### <div align=center>which reads the sensor value from DVL(Doppler Velocity Logs) and then derive the position of robot. "</div>
 ***
 
 # I. How to install ROS Noetic
