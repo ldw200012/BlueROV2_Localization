@@ -14,7 +14,7 @@
 
 2. Copy a ROS Package
 
-       $ git clone 
+       $ git clone https://github.com/ldw200012/bluerov_kalmanfilter.git
 
 
 3. Run below commands to configure your ROS Package
