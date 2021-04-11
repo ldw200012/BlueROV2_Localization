@@ -1,6 +1,6 @@
 # <div align=center>bluerov-kalmanfilter</div>
 #### <div align=center>" This repository is created for underwater robotics navigation for BlueROV2, </div>
-#### <div align=center>which reads the sensor value from DVL(Doppler Velocity Logs) and derive the position of robot. "</div>
+#### <div align=center>which reads the sensor value from DVL(Doppler Velocity Logs) and derive the position of robot via kalman filter. "</div>
 
 <div>
        <img src="https://bluerobotics.com/wp-content/uploads/2016/06/BlueROV2-4-lumen-1.png" width="50%">
