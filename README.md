@@ -1,5 +1,5 @@
 # bluerov-kalmanfilter
-## This repository is created for underwater robotics navigation for BlueROV2,
+This repository is created for underwater robotics navigation for BlueROV2,
 ## which reads the sensor value from DVL(Doppler Velocity Logs) and then derive the position of robot.
 
 # How to create ROS Package
