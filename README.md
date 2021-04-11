@@ -4,7 +4,7 @@
 
 <div>
        <img src="https://bluerobotics.com/wp-content/uploads/2016/06/BlueROV2-4-lumen-1.png" width="50%" style="display: inline;">
-       <img src="https://waterlinked.com/wp-content/uploads/2020/03/DSC04478_1600_web.jpg" width="50%" style="display: inline;">
+       <img src="https://waterlinked.com/wp-content/uploads/2020/03/DSC04478_1600_web.jpg" width="40%" style="display: inline;">
 </div>
 <br><br>
 
