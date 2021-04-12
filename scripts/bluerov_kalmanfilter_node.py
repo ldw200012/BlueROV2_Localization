@@ -1,20 +1,36 @@
 #!/usr/bin/env python
 
 import rospy
-from std_msgs.msg import String
+from bluerov_kalmanfilter.msg import DVL
+from nav_msgs.msg import Odometry
+from filterpy.kalman import KalmanFilter
 
-def talker():
-	pub = rospy.Publisher('chatter', String, queue_size=10)
-	rospy.init_node('talker', anonymous=True)
-	rate = rospy.Rate(10) # 10hz
-	while not rospy.is_shutdown():
-		hello_str = "hello world %s" % rospy.get_time()
-		rospy.loginfo(hello_str)
-		pub.publish(hello_str)
-		rate.sleep()
+def callback(data):
+    
+    # data: DVL.msg
+    # bluerov_odom: Odometry.msg
+    
+    # Kalman Filter here 
+    
+    
+    
+    # return bluerov_odom
+    
+    pub.publish(bluerov_odom)
 
+def navigation():
+    
+    rospy.init_node('bluerov_kalmanfilter_node')
+    rate = rospy.Rate(10) # 10hz
+    pub = rospy.Publisher("bluerov_odometry", String, queue_size=10)
+    
+    while not rospy.is_shutdown():
+        sub = rospy.Subscriber("bluerov_dvl", String, callback)
+        rate.sleep()
+
+        
 if __name__ == '__main__':
 	try:
-		talker()
+		navigation()
 	except rospy.ROSInterruptException:
 		pass
