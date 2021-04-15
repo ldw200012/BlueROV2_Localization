@@ -44,7 +44,7 @@ http://wiki.ros.org/noetic/Installation/Ubuntu
          $ source devel/setup.bash
 
 # III. How to use Kalman Filter in Python
-First, you have to grab the idea what Kalman Filter is.
+1. First, you have to grab the idea what Kalman Filter is.
 
 You can check the basic understandings of Kalman Filter in the following website
 
@@ -52,7 +52,7 @@ https://www.kalmanfilter.net/alphabeta.html
 
 <br>
 
-After you understand what Kalman Filter is, you can now implement Python code using Kalman Filter in FilterPy library.
+2. After you understand what Kalman Filter is, you can now implement Python code using Kalman Filter in FilterPy library.
 
 You can check the existing Python library for Kalman Filter in the following website
 
