@@ -52,7 +52,6 @@ http://wiki.ros.org/noetic/Installation/Ubuntu
        
       https://www.kalmanfilter.net/alphabeta.html
 
-<br>
 2. Python implementation on Kalman Filter
 
     - After you understand what Kalman Filter is, you can now implement Python code using Kalman Filter in FilterPy library.
