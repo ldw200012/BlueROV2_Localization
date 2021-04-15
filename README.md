@@ -1,7 +1,6 @@
 # <div align=center>bluerov-kalmanfilter</div>
 #### <div align="center">" This repository is created for underwater robotics navigation for BlueROV2, </div>
 #### <div align="center"> which reads the sensor value from DVL(Doppler Velocity Logs) and derive the position of robot via kalman filter. "</div>
-#### <div align="center"><a href="https://filterpy.readthedocs.io/en/latest/kalman/KalmanFilter.html">What is Kalman Filter?</a>_______<a href="https://www.kalmanfilter.net/default.aspx">Python Kalman Filter Library</a></div>
 
 <div>
        <img src="https://bluerobotics.com/wp-content/uploads/2016/06/BlueROV2-4-lumen-1.png" width="50%">
@@ -44,3 +43,15 @@ http://wiki.ros.org/noetic/Installation/Ubuntu
          $ catkin_make
          $ source devel/setup.bash
 
+# III. How to use Kalman Filter in Python
+First, you have to grab the idea what Kalman Filter is.
+
+You can check the basic understandings of Kalman Filter in the following website
+
+https://www.kalmanfilter.net/alphabeta.html
+
+After you understand what Kalman Filter is, you can now implement Python code using Kalman Filter in FilterPy library.
+
+You can check the existing Python library for Kalman Filter in the following website
+
+https://filterpy.readthedocs.io/en/latest/kalman/KalmanFilter.html
