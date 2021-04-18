@@ -56,7 +56,6 @@ http://wiki.ros.org/noetic/Installation/Ubuntu
 
 #### Module Name: CA-RIS-801 | Marine Robotics (Spring 2021), Jacobs University Bremen (JUB)
 #### Instructors: Dr. Evelina Dineva | Prof. Dr. Francesco Maurelli
-#### Contributors: Dongwook Lee | Katrin von Seggern
-#### Contacts: do.lee@jacobs-university.de | K.vonSeggern@jacobs-university.de
+#### Contributors: Dongwook Lee (do.lee@jacobs-university.de) | Katrin von Seggern (K.vonSeggern@jacobs-university.de)
 
 
