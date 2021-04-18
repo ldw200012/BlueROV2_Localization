@@ -42,7 +42,7 @@ http://wiki.ros.org/noetic/Installation/Ubuntu
        $ catkin_make
        $ source devel/setup.bash (This command must be run on every shell you are using for ROS from now on)
 
-# IV. How to use Kalman Filter in Python
+# IV. How to use Kalman Filter
 1. Theoretical understandings of Kalman Filter
 
     - https://www.kalmanfilter.net/default.aspx
