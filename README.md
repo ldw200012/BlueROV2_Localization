@@ -12,38 +12,37 @@
 then publishing the robot navigation value in a message type <a href="http://docs.ros.org/en/melodic/api/nav_msgs/html/msg/Odometry.html">nav_msgs/Odometry.msg</a></div>
 ***
 
-# I. How to install ROS Noetic
+# I. Introduction to Navigation
+https://www.nortekgroup.com/knowledge-center/wiki/new-to-subsea-navigation
+
+# II. How to install ROS Noetic
 You can take a look at below ROS Wiki page to follow instructions to ROS Noetic installation
 
 http://wiki.ros.org/noetic/Installation/Ubuntu
 
-# II. How to create ROS Package
-1. Get into your ROS workspace
+# III. How to create ROS Workspace and Package
+1. Create a ROS workspace
+
+       $ mkdir -p ~/catkin_ws/src
+       $ cd ~/catkin_ws/
+       $ catkin_make
+       $ source devel/setup.bash
+
+2. Get into your ROS workspace
 
        $ cd ~/catkin_ws/src
-  
-   - in case you have another name for your ROS workspace
-
-         $ cd ~/<workspace_name>/src
-
-2. Copy a ROS Package
+       
+3. Copy a ROS Package
 
        $ git clone https://github.com/ldw200012/bluerov_kalmanfilter.git
 
-
-3. Run below commands to configure your ROS Package
+4. Run below commands to configure your ROS Package
 
        $ cd ~/catkin_ws
        $ catkin_make
-       $ source devel/setup.bash
-  
-   - in case you have another name for your ROS workspace
+       $ source devel/setup.bash (This command must be run on every shell you are using for ROS from now on)
 
-         $ cd ~/<workspace_name>
-         $ catkin_make
-         $ source devel/setup.bash
-
-# III. How to use Kalman Filter in Python
+# IV. How to use Kalman Filter in Python
 1. Theoretical understandings of Kalman Filter
 
     - https://www.kalmanfilter.net/default.aspx
