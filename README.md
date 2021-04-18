@@ -1,15 +1,15 @@
 # <div align=center>bluerov-kalmanfilter</div>
-#### <div align="center">" This repository is created for underwater robotics navigation for BlueROV2, </div>
-#### <div align="center"> which reads the sensor value from DVL(Doppler Velocity Logs) and derive the position of robot via kalman filter. "</div>
+#### <div align="center">" This repository is created for underwater robotics navigation of BlueROV2, </div>
+#### <div align="center"> which reads the sensor values from DVL(Doppler Velocity Logs) and derive the position of robot via Kalman Filter. "</div>
 
 <div>
        <img src="https://bluerobotics.com/wp-content/uploads/2016/06/BlueROV2-4-lumen-1.png" width="50%">
        <img src="https://waterlinked.com/wp-content/uploads/2020/03/DSC04478_1600_web.jpg" width="40%">
 </div><br>
 
-<div align="center">We are subscribing <a href="https://waterlinked.github.io/docs/dvl/dvl-protocol/">DVL sensor values</a>,<br><br>
+<div align="center">We subscribe <a href="https://waterlinked.github.io/docs/dvl/dvl-protocol/">DVL sensor values</a><br><br>
 
-then publishing the robot navigation value in a message type <a href="http://docs.ros.org/en/melodic/api/nav_msgs/html/msg/Odometry.html">nav_msgs/Odometry.msg</a></div>
+and publish the robot navigation value in a ROS message type <a href="http://docs.ros.org/en/melodic/api/nav_msgs/html/msg/Odometry.html">nav_msgs/Odometry.msg</a></div>
 ***
 
 # I. Introduction to Navigation
