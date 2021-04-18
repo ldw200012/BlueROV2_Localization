@@ -7,7 +7,7 @@
        <img src="https://waterlinked.com/wp-content/uploads/2020/03/DSC04478_1600_web.jpg" width="40%">
 </div><br>
 
-<div align="center">We are subscribing DVL sensor value, which has a message type <a href="http://docs.ros.org/en/hydro/api/underwater_sensor_msgs/html/msg/DVL.html">underwater_sensor_msgs/DVL.msg</a><br><br>
+<div align="center">We are subscribing <a href="https://waterlinked.github.io/docs/dvl/dvl-protocol/">DVL sensor values</a>, <a href="http://docs.ros.org/en/hydro/api/underwater_sensor_msgs/html/msg/DVL.html">underwater_sensor_msgs/DVL.msg</a><br><br>
 
 then publishing the robot navigation value in a message type <a href="http://docs.ros.org/en/melodic/api/nav_msgs/html/msg/Odometry.html">nav_msgs/Odometry.msg</a></div>
 ***
