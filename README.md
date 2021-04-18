@@ -50,3 +50,13 @@ http://wiki.ros.org/noetic/Installation/Ubuntu
 2. Python implementation on Kalman Filter
 
     - https://filterpy.readthedocs.io/en/latest/kalman/KalmanFilter.html
+
+***
+# About the Project
+
+#### Module Name: CA-RIS-801 | Marine Robotics (Spring 2021), Jacobs University Bremen (JUB)
+#### Instructors: Dr. Evelina Dineva | Prof. Dr. Francesco Maurelli
+#### Contributors: Dongwook Lee | Katrin von Seggern
+#### Contacts: do.lee@jacobs-university.de | K.vonSeggern@jacobs-university.de
+
+
