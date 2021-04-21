@@ -15,12 +15,21 @@ and publish the robot navigation value in a ROS message type <a href="http://doc
 # I. Introduction to Navigation
 https://www.nortekgroup.com/knowledge-center/wiki/new-to-subsea-navigation
 
-# II. How to install ROS Noetic
+# II. Introduction to Kalman Filter
+1. Theoretical understandings of Kalman Filter
+
+    - https://www.kalmanfilter.net/default.aspx
+
+2. Python implementation on Kalman Filter
+
+    - https://filterpy.readthedocs.io/en/latest/kalman/KalmanFilter.html
+
+# III. How to install ROS Noetic
 You can take a look at below ROS Wiki page to follow instructions to ROS Noetic installation
 
 http://wiki.ros.org/noetic/Installation/Ubuntu
 
-# III. How to create ROS Workspace and Package
+# IV. How to create ROS Workspace and Package
 1. Create a ROS workspace
 
        $ mkdir -p ~/catkin_ws/src
@@ -41,15 +50,6 @@ http://wiki.ros.org/noetic/Installation/Ubuntu
        $ cd ~/catkin_ws
        $ catkin_make
        $ source devel/setup.bash (This command must be run on every shell you are using for ROS from now on)
-
-# IV. How to use Kalman Filter
-1. Theoretical understandings of Kalman Filter
-
-    - https://www.kalmanfilter.net/default.aspx
-
-2. Python implementation on Kalman Filter
-
-    - https://filterpy.readthedocs.io/en/latest/kalman/KalmanFilter.html
 
 ***
 # About the Project
