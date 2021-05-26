@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
 import rospy
-import numpy
+import json
+import numpy as np
 # from bluerov_kalmanfilter.msg import DVL
 # we need time, vx, vy, vz, fom, valid
 from nav_msgs.msg import Odometry
