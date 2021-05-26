@@ -119,20 +119,20 @@ class KalmanFilter:
         
 if __name__ == '__main__':
 
-	rospy.init_node('bluerov_kalmanfilter_node')
+    rospy.init_node('bluerov_kalmanfilter_node')
 	
-	# Initial State Vector [0 ... 0]
-	x = np.zeros((9, 1))
+    # Initial State Vector [0 ... 0]
+    x = np.zeros((9, 1))
 	
-	# Estimate Uncertainty
-	P = np.eye(9)*500
+    # Estimate Uncertainty
+    P = np.eye(9)*500
 
-	# Gain Matrix
-	u = np.array([[0]])
+    # Gain Matrix
+    u = np.array([[0]])
 
-	try:
+    try:
     	MyKF = KalmanFilter(x, p, u)
     	MyKF.subscriber()
     	rospy.spin()
-	except rospy.ROSInterruptException:
-	    pass
+    except rospy.ROSInterruptException:
+        pass
