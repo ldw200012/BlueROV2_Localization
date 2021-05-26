@@ -43,7 +43,7 @@ http://wiki.ros.org/noetic/Installation/Ubuntu
        
 3. Copy a ROS Package
 
-       $ git clone https://github.com/ldw200012/bluerov_kalmanfilter.git
+       $ git clone https://github.com/ldw200012/bluerov2_kalmanfilter.git
 
 4. Run below commands to configure your ROS Package
 
