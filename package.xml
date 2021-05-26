@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>bluerov_kalmanfilter</name>
+  <name>bluerov2_kalmanfilter</name>
   <version>0.0.0</version>
   <description>The bluerov_kalmanfilter package</description>
 
