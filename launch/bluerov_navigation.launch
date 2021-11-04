@@ -1,0 +1,7 @@
+<launch>
+	<node name="DVL_node" pkg="bluerov2_kalmanfilter" type="DVL_Output.py">
+        <param name="ip" value="192.168.69.20"/>
+        <param name="port" value="16171"/>
+    </node>
+    <node name="KMF_node" pkg="bluerov2_kalmanfilter" type="KMF_Output.py" output="screen"/>
+</launch>

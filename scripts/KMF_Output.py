@@ -1,10 +1,14 @@
 #!/usr/bin/env python
 
+# Topic Names to be Published and Subscribed
+ROS_SUBSCRIBER_NAME = 'dvl/data'
+ROS_PUBLISHER_NAME = 'bluerov2/nav'
+
+# Packages to be imported
 import rospy
 import json
 import time
 import numpy as np
-# from bluerov_kalmanfilter.msg import DVL
 # we need time, vx, vy, vz, fom, valid
 from nav_msgs.msg import Odometry
 from std_msgs.msg import String
@@ -18,7 +22,7 @@ class KalmanFilter:
         self.u = u
         self.P = P
         self.time_i = round(time.time() * 1000)
-        self.pub = rospy.Publisher('bluerov2/odom', Odometry, queue_size=10)
+        self.pub = rospy.Publisher(ROS_PUBLISHER_NAME, Odometry, queue_size=10)
         
     def time_update(self, frameTimeDiff):
         # ------------------------------------- Time Update ("Predict") ------------------------------------------------
@@ -88,19 +92,19 @@ class KalmanFilter:
 
         # publish
         # Output Odometry message
-	    bluerov_odom = Odometry()
-	    
-	    bluerov_odom.header.seq = prev_header[0]
-	    bluerov_odom.header.stamp = prev_header[1]
-	    bluerov_odom.header.child_frame_id = prev_header[2]
-	    
-	    bluerov_odom.pose.position.x = x[0][0]
-	    bluerov_odom.pose.position.y = x[3][0]
-	    bluerov_odom.pose.position.z = x[6][0]
-	    
-	    bluerov_odom.twist.linear.x = x[1][0]
-	    bluerov_odom.twist.linear.y = x[4][0]
-	    bluerov_odom.twist.linear.z = x[7][0]
+        bluerov_odom = Odometry()
+
+        bluerov_odom.header.seq = prev_header[0]
+        bluerov_odom.header.stamp = prev_header[1]
+        bluerov_odom.header.child_frame_id = prev_header[2]
+
+        bluerov_odom.pose.position.x = x[0][0]
+        bluerov_odom.pose.position.y = x[3][0]
+        bluerov_odom.pose.position.z = x[6][0]
+
+        bluerov_odom.twist.linear.x = x[1][0]
+        bluerov_odom.twist.linear.y = x[4][0]
+        bluerov_odom.twist.linear.z = x[7][0]
 
         self.pub.publish(bluerov_odom)
         self.time_i = round(bluerov_odom.header.stamp.sec * 1000)
@@ -114,8 +118,8 @@ class KalmanFilter:
 
     	self.measurement_update(z, frameTimeDiff, measurement_uncertainty, prev_header)
 
-	def subscriber(self):
-		rospy.Subscriber("bluerov2/dvl", DVL, self.callback)
+    def subscriber(self):
+        rospy.Subscriber(ROS_SUBSCRIBER_NAME, DVL, self.callback)
         
 if __name__ == '__main__':
 

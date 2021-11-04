@@ -51,7 +51,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   DVL.msg
-#   Message2.msg
+  DVLBeam.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -106,7 +106,7 @@ generate_messages(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES bluerov_kalmanfilter
- CATKIN_DEPENDS roscpp rospy std_msgs message_runtime
+  CATKIN_DEPENDS roscpp rospy std_msgs message_runtime
 #  DEPENDS system_lib
 )
 

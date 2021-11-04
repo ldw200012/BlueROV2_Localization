@@ -1,3 +1,0 @@
-<launch>
-	<node name="bluerov_kalmanfilter_node" pkg="bluerov2_kalmanfilter" type="bluerov_kalmanfilter_node.py" output="screen"/>
-</launch>
