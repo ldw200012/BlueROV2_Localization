@@ -4,7 +4,7 @@
 
 <div align="center">
        <img src="https://bluerobotics.com/wp-content/uploads/2016/06/BlueROV2-4-lumen-1.png" width="50%">
-       <img src="https://waterlinked.com/wp-content/uploads/2020/03/DSC04478_1600_web.jpg" width="40%">
+       <img src="https://hotrobotics.co.uk/wp-content/uploads/2021/07/Waterlinked-DVL-003-800x600.jpg" width="40%">
 </div><br>
 
 <div align="center">We subscribe <a href="https://waterlinked.github.io/docs/dvl/dvl-protocol/">DVL sensor values</a>
