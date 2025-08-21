@@ -5,6 +5,11 @@
 <!-- ![BlueROV2](https://bluerobotics.com/wp-content/uploads/2016/06/BlueROV2-4-lumen-1.png)
 ![DVL Sensor](https://hotrobotics.co.uk/wp-content/uploads/2021/07/Waterlinked-DVL-003-800x600.jpg) -->
 
+<div align="center">
+       <img src="https://bluerobotics.com/wp-content/uploads/2016/06/BlueROV2-4-lumen-1.png" width="50%">
+       <img src="https://hotrobotics.co.uk/wp-content/uploads/2021/07/Waterlinked-DVL-003-800x600.jpg" width="40%">
+</div><br>
+
 **Extended Kalman Filter (EKF) Localization for BlueROV2 Underwater Robot**
 
 [![ROS Noetic](https://img.shields.io/badge/ROS-Noetic-brightgreen.svg)](http://wiki.ros.org/noetic)
