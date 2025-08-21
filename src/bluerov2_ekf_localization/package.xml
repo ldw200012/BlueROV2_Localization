@@ -1,8 +1,8 @@
 <?xml version="1.2"?>
 <package format="2">
-  <name>bluerov2_kalmanfilter</name>
+  <name>bluerov2_ekf_localization</name>
   <version>1.2.0</version>
-  <description>The bluerov_kalmanfilter package</description>
+  <description>The bluerov2_ekf_localization package for BlueROV2 Extended Kalman Filter localization</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
