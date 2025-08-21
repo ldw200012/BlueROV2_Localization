@@ -2,8 +2,8 @@
 
 <div align="center">
 
-![BlueROV2](https://bluerobotics.com/wp-content/uploads/2016/06/BlueROV2-4-lumen-1.png)
-![DVL Sensor](https://hotrobotics.co.uk/wp-content/uploads/2021/07/Waterlinked-DVL-003-800x600.jpg)
+<!-- ![BlueROV2](https://bluerobotics.com/wp-content/uploads/2016/06/BlueROV2-4-lumen-1.png)
+![DVL Sensor](https://hotrobotics.co.uk/wp-content/uploads/2021/07/Waterlinked-DVL-003-800x600.jpg) -->
 
 **Extended Kalman Filter (EKF) Localization for BlueROV2 Underwater Robot**
 
@@ -133,11 +133,3 @@ This project is licensed under the TODO License - see the [LICENSE](LICENSE) fil
 
 - **Maintainer**: dongwooklee (dongwooklee1201@gmail.com)
 - **Project Link**: [https://github.com/your-username/BlueROV2-EKF-Localization](https://github.com/your-username/BlueROV2-EKF-Localization)
-
----
-
-<div align="center">
-
-**Built with ❤️ for underwater robotics research**
-
-</div>z
